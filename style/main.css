@@ -1,0 +1,41 @@
+/* saidbar-section */
+
+.sidebar {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: var(--bg-darck-blue);
+  color: var(--white-color-txt);
+
+  outline: 2px solid aqua;
+}
+
+.sidebar .section {
+  margin-left: 40px;
+}
+.sidebar .list {
+  margin-left: 20px;
+}
+
+/* sidebar-title */
+.sidebar .title {
+  font-size: 22px;
+  font-weight: 700;
+}
+/* image-profil */
+
+/* section-nav-contackts */
+.contact-list {
+  list-style: none;
+}
+.contact-list .link {
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* outline-settimeout-blok */
+.contact-list,
+.skil-section {
+  outline: 2px solid aqua;
+}
