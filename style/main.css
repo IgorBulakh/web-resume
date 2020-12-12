@@ -5,12 +5,11 @@
   padding-bottom: 40px;
   background: var(--bg-darck-blue);
   color: var(--white-color-txt);
-
-  outline: 2px solid aqua;
 }
 
 .sidebar .section {
   margin-left: 40px;
+  margin-right: 40px;
 }
 .sidebar .list {
   margin-left: 20px;
@@ -18,13 +17,19 @@
 
 /* sidebar-title */
 .sidebar .title {
+  margin-bottom: 20px;
   font-size: 22px;
   font-weight: 700;
 }
 /* image-profil */
+.portrait {
+  margin-bottom: 50px;
+}
 
 /* section-nav-contackts */
-.contact-list {
+.section .contact-list {
+  margin-left: 0;
+  margin-bottom: 50px;
   list-style: none;
 }
 .contact-list .link {
@@ -34,8 +39,138 @@
   font-weight: 400;
 }
 
-/* outline-settimeout-blok */
+/* icon-link-contacts */
+.contact-list .link::before {
+  content: '';
+  display: inline-flex;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.link-phone::before {
+  background-image: url(../image/tel.svg);
+}
+
+.link-mail::before {
+  background-image: url(../image/mail.svg);
+}
+/* hover-focus-link-contacts */
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+  color: var(--acent-color-txt);
+  opacity: 1;
+  transition: 0.3s linear;
+}
+
+/* skil-section-asidebar */
+.skil-section {
+  margin-bottom: 50px;
+}
+
+.list-acent {
+  color: var(--acent-color-txt);
+}
+.list-acent .list-text {
+  color: var(--white-color-txt);
+}
+
+/* main-block-page */
+.title-blocks {
+  margin-bottom: 20px;
+}
+
+/* hero-container-main-block */
+.hero {
+  padding: 110px 90px 110px 90px;
+  display: flex;
+  flex-direction: column;
+}
+.hero .list {
+  margin-left: 20px;
+}
+/* information-block-position-name */
+.information {
+  width: 400px;
+  margin-bottom: 60px;
+}
+.profession {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--acent-color-txt);
+}
+.name {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+/* project-block */
+.project {
+  margin-bottom: 50px;
+}
+.project .list {
+}
+.list-number {
+  font-weight: 700;
+}
+/* work-experiens-block */
+.experience {
+  margin-bottom: 50px;
+}
+.experience .list:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+/* text-page-block-main */
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--grey-color-txt);
+}
+
+/* education-block */
+
+.title-university {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  color: var(--grey-color-txt);
+}
+
+/* duration-years-text-block-works */
+.duration {
+  margin-top: 14px;
+  margin-bottom: 14px;
+
+  font-size: 12px;
+  opacity: 0.3;
+}
+.duration:last-child {
+  margin-bottom: 0;
+}
+/* OUTLINE-SETTIMEOUT-BLOCK */
+/* OUTLINE-SETTIMEOUT-BLOCK */
 .contact-list,
 .skil-section {
-  outline: 2px solid aqua;
+  /* outline: 2px solid aqua; */
 }
+.hero {
+  /* outline: 2px solid aqua; */
+}
+.information,
+.project,
+.experience,
+.education {
+  /* outline: 2px solid aqua; */
+}
+.section {
+  /* outline: 2px solid aqua; */
+}
+/* OUTLINE-SETTIMEOUT-BLOCK */
+/* OUTLINE-SETTIMEOUT-BLOCK */
