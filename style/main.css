@@ -146,9 +146,10 @@
 }
 /* information-block-position-name */
 .information {
-  width: 400px;
+  /* width: 400px; */
   margin-bottom: 60px;
 }
+
 .profession {
   font-size: 14px;
   font-weight: 700;
