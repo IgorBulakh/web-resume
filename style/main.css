@@ -74,7 +74,12 @@
 }
 /* image-profil */
 .portrait {
+  height: 354px;
   margin-bottom: 50px;
+  background-image: url(/image/portrait.JPG);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 /* section-nav-contackts */
@@ -136,10 +141,12 @@
 }
 
 /* hero-container-main-block */
+
 .hero {
-  padding: 110px 90px 110px 90px;
+  padding: 60px 10px;
+  /* padding: 110px 90px 110px 90px;
   display: flex;
-  flex-direction: column;
+  flex-direction: column; */
 }
 .hero .list {
   margin-left: 20px;
@@ -157,8 +164,9 @@
   color: var(--acent-color-txt);
 }
 .name {
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 30px;
+  /* text-align: center; */
 }
 
 /* project-block */
@@ -216,6 +224,35 @@
 .duration:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (min-width: 768px) {
+  .portrait {
+    width: 370px;
+    height: 460px;
+  }
+
+  .hero {
+    padding: 80px 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .hero {
+    padding: 110px 90px;
+  }
+
+  .name {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+}
+
 /* OUTLINE-SETTIMEOUT-BLOCK */
 /* OUTLINE-SETTIMEOUT-BLOCK */
 .contact-list,
