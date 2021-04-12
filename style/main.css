@@ -78,7 +78,7 @@
   margin-bottom: 50px;
   background-image: url(../image/portrait.JPG);
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
 }
 
