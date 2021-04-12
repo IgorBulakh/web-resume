@@ -76,7 +76,7 @@
 .portrait {
   height: 354px;
   margin-bottom: 50px;
-  background-image: url(/image/portrait.JPG);
+  background-image: url(../image/portrait.JPG);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -110,53 +110,46 @@
 .link-phone::before {
   background-image: url(../image/tel.svg);
 }
-
 .link-mail::before {
   background-image: url(../image/mail.svg);
 }
-/* hover-focus-link-contacts */
-
-.contact-list .link:hover,
+/* section-nav-contackts */
+.se .contact-list .link:hover,
 .contact-list .link:focus {
   color: var(--acent-color-txt);
   opacity: 1;
   transition: 0.3s linear;
 }
-
-/* skil-section-asidebar */
-.skil-section {
+font-size: 14px;
+font-w .skil-section {
   margin-bottom: 50px;
 }
-
 .list-acent {
   color: var(--acent-color-txt);
 }
 .list-acent .list-text {
   color: var(--white-color-txt);
 }
-
-/* main-block-page */
-.title-blocks {
+background-size: co .title-blocks {
   margin-bottom: 20px;
 }
-
-/* hero-container-main-block */
-
+background-image: url(../imag
 .hero {
   padding: 60px 10px;
-  /* padding: 110px 90px 110px 90px;
-  display: flex;
-  flex-direction: column; */
+  background-image: url(../image/mail.svg);
+}
+/* hover-focus-link-contacts
 }
 .hero .list {
   margin-left: 20px;
 }
-/* information-block-position-name */
+  opacity: 1;
+  transition: 0.3s line
 .information {
-  /* width: 400px; */
+  
+/* skil-section-as
   margin-bottom: 60px;
 }
-
 .profession {
   font-size: 14px;
   font-weight: 700;
@@ -165,11 +158,10 @@
 }
 .name {
   font-size: 35px;
-  margin-bottom: 30px;
-  /* text-align: center; */
+  margin-bottom: 30px; * main-block-page */
+.tit
 }
-
-/* project-block */
+  margin-bottom: 20
 .project {
   margin-bottom: 50px;
 }
@@ -178,25 +170,24 @@
 .list-number {
   font-weight: 700;
 }
-
 .list-number .link {
   color: var(--grey-color-txt);
 }
-
 .list-number .link:hover,
 .list-number .link:focus {
   color: var(--acent-color-txt);
 }
 
-/* work-experiens-block */
+.profession {
+  font-size
 .experience {
   margin-bottom: 50px;
 }
 .experience .list:not(:last-child) {
   margin-bottom: 24px;
 }
-
-/* text-page-block-main */
+  font-size: 35px;
+  margi
 .text {
   margin-top: 0;
   margin-bottom: 0;
@@ -204,46 +195,90 @@
   font-weight: 400;
   color: var(--grey-color-txt);
 }
-
-/* education-block */
-
+.project .list {
+}
+.l
 .title-university {
   margin-bottom: 15px;
   text-transform: uppercase;
   color: var(--grey-color-txt);
 }
+}
 
-/* duration-years-text-block-works */
+.list-number .link:hover,
+.list-nu
 .duration {
   margin-top: 14px;
   margin-bottom: 14px;
-
   font-size: 12px;
   opacity: 0.3;
 }
 .duration:last-child {
   margin-bottom: 0;
 }
-
 @media screen and (min-width: 768px) {
   .portrait {
     width: 370px;
     height: 460px;
+    border-radius: 50%;
   }
-
   .hero {
     padding: 80px 30px;
     display: flex;
     flex-direction: column;
   }
-
   .name {
     font-size: 45px;
   }
 }
-
 @media screen and (min-width: 980px) {
   .hero {
+    padding: 110px 90px;
+  }
+  .name {
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+}
+}
+
+@media screen and (min-widt
+
+@media screen and (min-width:
+.contact-list,
+.skil-section {
+    width: 370px;
+    height: 46
+}
+.hero {
+    border-radius: 50%;
+  }
+
+  .
+}
+.information,
+.project,
+.experience,
+.education {
+    flex-direction: column;
+  }
+
+}
+.section {
+  .name {
+    font-size: 45px;
+
+}
+  }
+}
+
+@media screen and (min-
+}
+
+@media screen and (min-widt
+@media screen and (min-width: 980px) {
+  .hero {
+    padding: 11
     padding: 110px 90px;
   }
 
@@ -268,39 +303,7 @@
 .education {
   /* outline: 2px solid aqua; */
 }
-.section {
+.s
   /* outline: 2px solid aqua; */
 }
-/* OUTLINE-SETTIMEOUT-BLOCK */
-/* OUTLINE-SETTIMEOUT-BLOCK */
-
-/* -----------option of social networks with::before--------- */
-
-/* .social-icon ::before {
-  content: '';
-  display: block;
-  width: 40px;
-  height: 40px;
-  background: var(--bg-icon-link);
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px;
-}
-
-.social-icon .git-link::before {
-  background-image: url(../image/git.svg);
-}
-.social-icon .fasebook-link::before {
-  background-image: url(../image/facebook\ 1.svg);
-}
-.social-icon .linkedinl-link::before {
-  background-image: url(../image/linkedin\ 1.svg);
-}
-.social-icon .instagram-link::before {
-  background-image: url(../image/instagram\ 2.svg);
-} */
-
-/* .social-icon .link::before {
-  content: '';
-} --------not----------*/
+/* OUTLINE-SETTIMEOUT-BLO;
