@@ -76,7 +76,7 @@
 .portrait {
   height: 354px;
   margin-bottom: 50px;
-  background-image: url(../image/portrait.JPG);
+  background-image: url("../image/portrait.JPG");
   background-repeat: no-repeat;
   /* background-position: center; */
   background-size: cover;
@@ -108,11 +108,11 @@
 }
 
 .link-phone::before {
-  background-image: url(../image/tel.svg);
+  background-image: url("../image/tel.svg");
 }
 
 .link-mail::before {
-  background-image: url(../image/mail.svg);
+  background-image: url("../image/mail.svg");
 }
 /* hover-focus-link-contacts */
 
@@ -253,26 +253,6 @@
   }
 }
 
-/* OUTLINE-SETTIMEOUT-BLOCK */
-/* OUTLINE-SETTIMEOUT-BLOCK */
-.contact-list,
-.skil-section {
-  /* outline: 2px solid aqua; */
-}
-.hero {
-  /* outline: 2px solid aqua; */
-}
-.information,
-.project,
-.experience,
-.education {
-  /* outline: 2px solid aqua; */
-}
-.section {
-  /* outline: 2px solid aqua; */
-}
-/* OUTLINE-SETTIMEOUT-BLOCK */
-/* OUTLINE-SETTIMEOUT-BLOCK */
 
 /* -----------option of social networks with::before--------- */
 
